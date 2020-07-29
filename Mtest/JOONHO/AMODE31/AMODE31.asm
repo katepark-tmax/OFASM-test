@@ -4,10 +4,14 @@ AMODE31 RMODE 31
        USING *,15
 
        LA    2,SYN
+********       OFADBGREG 2
        C     2,=X'01000000'
        BNL   OKT
 
-OKT    OFADBGMEM OK,1
+OKT    OFADBGMEM OK,0
+       OFADBGMEM OK,1
+       OFADBGMEM OK,2
+       OFADBGMEM OK,3
        B EXIT
 NGT    OFADBGMEM NG,1
        B EXIT
