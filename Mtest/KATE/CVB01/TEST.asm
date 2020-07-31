@@ -41,7 +41,7 @@ TEST       CSECT
 * -------------------------------------
            BR        14
 DATA11     DC        PL8'25594'
-DATA22     DC        PL3'25594'
+DATA22     DC        PL8'888888'
 DATA44     DC        PL4'25594'
 DATA55     DC        PL5'25594'
 DATA66     DC        PL6'25594'
