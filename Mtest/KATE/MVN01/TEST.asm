@@ -18,7 +18,8 @@ TEST       CSECT
 * --------------------------------------
            BR        14
 SRC1       DC        X'0102030405060708'
-TAR1       DS        CL8
+*TAR1       DS        CL8
+TAR1       DC        X'1020304050607080'
            END
 
 * length test need
